@@ -16,9 +16,9 @@ async def main(connection):
     @iterm2.StatusBarRPC
     async def bash_coroutine(knobs):
         bashCommand = knobs[BASH_CONST]
-        output = subprocess.getoutput(bashCommand)
-        return output
+        return subprocess.getoutput(bashCommand)
 
     await component.async_register(connection, bash_coroutine)
 
 iterm2.run_forever(main)
+
