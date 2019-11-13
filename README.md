@@ -7,5 +7,6 @@ You can also copy bash_status_bar.py into the AutoLaunch directory under Scripts
 If there is no AutoLaunch directory just make it.  
 Relaunch Iterm2  
 
-
-
+# Examples
+- Get IP Address  
+`echo "$(curl ifconfig.co)" | tr -d '[:space:]'`
