@@ -10,3 +10,5 @@ Relaunch Iterm2
 # Examples
 - Get IP Address  
 `echo "$(curl ifconfig.co)" | tr -d '[:space:]'`
+- Gmail unread messages
+![alt text](https://raw.githubusercontent.com/mbrostami/iterm2-bashStatusBar/master/images/gmail.png)
